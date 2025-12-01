@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "benchmake"
+version = "1.1.2"
+description = "A lightweight benchmarking toolkit for Python, helping you measure and compare code performance with ease."
+readme = "README.md"
+authors = [
+  { name="Prof Dr Amanda S Barnard"}
+]
+license = "MIT"
+keywords = ["benchmark", "performance", "tooling"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3.8",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "joblib",
+  "scikit-learn"
+]
+requires-python = ">=3.6"
