@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use BenchMake, please cite the associated paper."
+title: "BenchMake: turn any scientific data set into a reproducible benchmark"
+authors:
+  - family-names: Barnard
+    given-names: Amanda
+    orcid: "https://orcid.org/0000-0002-4784-2382"
+version: "1.1.2"
+doi: "10.1088/2632-2153/adf810"
+date-released: 2025
+url: "https://github.com/amaxiom/BenchMake"
