@@ -1,4 +1,3 @@
----
 # BenchMake
 ## Turn any Scientific Data Set into a Reproducible Benchmark
 
@@ -27,7 +26,6 @@ BenchMake is a Python package that partitions a data set into train/test splits 
    - [License](#license)  
    - [Citation](#citation) 
 
----
 
 ## Features
 
