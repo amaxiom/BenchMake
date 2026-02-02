@@ -51,7 +51,7 @@ BenchMake is a Python package that partitions a data set into train/test splits 
 
 ---
 
-## Installation
+## Installation ([![PyPI version](https://badge.fury.io/py/benchmake.svg)](https://pypi.org/project/benchmake/))
 
 BenchMake requires Python 3.7 or higher. To install via pip:
 
