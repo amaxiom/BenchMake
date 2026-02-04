@@ -1,9 +1,9 @@
 # BenchMake
 ## Turn any Scientific Data Set into a Reproducible Benchmark
 
-Version: **1.1.2**  
-Date: **01/07/2025**  
-Author: **Prof. Amanda S. Barnard, PhD DSc**  
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI version](https://badge.fury.io/py/benchmake.svg)](https://pypi.org/project/benchmake/)
 
 BenchMake is a Python package that partitions a data set into train/test splits using **archetypal analysis**. It relies on an **NMF-based** approach, performing a multiplicative-update factorization and then computing distances to the discovered “archetypes.” The nearest unique data points become the test set (or optionally just the test **indices**). BenchMake supports **GPU acceleration** via **CuPy** (if available), or automatically falls back to CPU-based NumPy. 
 
@@ -51,7 +51,7 @@ BenchMake is a Python package that partitions a data set into train/test splits 
 
 ---
 
-## Installation ([![PyPI version](https://badge.fury.io/py/benchmake.svg)](https://pypi.org/project/benchmake/))
+## Installation
 
 BenchMake requires Python 3.7 or higher. To install via pip:
 
